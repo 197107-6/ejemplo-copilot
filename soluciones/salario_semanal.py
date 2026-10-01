@@ -43,14 +43,14 @@ doble
 # Caso 1: 40 horas a $10
 #Entrada: 40, 10
 #Salida: 400
-
+#
 # Caso 2: 45 horas a $10
 #Entrada: 45, 10
-#Salida: 475
-
+#Salida: 500
+#
 # Caso 3: 50 horas a $12
 #Entrada: 50, 12
-#Salida: 600
+#Salida: 720
 
 #Restricciones:
 #- no imprimir dentro de la función calcularSalario
@@ -58,3 +58,18 @@ doble
 #- no usar bibliotecas externas
 #- no usar variables globales
 #- no realices llamadas a funciones dentro de este archivo
+def leerDatos():
+    horas = float(input("Ingrese las horas trabajadas: "))
+    pago = float(input("Ingrese el pago por hora: "))
+    return horas, pago
+
+def calcularSalario(horas, pago):
+    if horas <= 40:
+        salario = horas * pago
+    else:
+        extra = horas - 40
+        salario = (40 * pago) + (extra * pago * 2)
+    return salario
+
+def mostrarSalario(salario):
+    print("El salario semanal es:", salario)
