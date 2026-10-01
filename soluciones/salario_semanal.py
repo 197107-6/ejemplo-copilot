@@ -68,7 +68,7 @@ def calcularSalario(horas, pago):
         salario = horas * pago
     else:
         extra = horas - 40
-        salario = (40 * pago) + (extra * pago * 2)
+        salario = (40 * pago) + (extra * pago * 3)
     return salario
 
 def mostrarSalario(salario):
