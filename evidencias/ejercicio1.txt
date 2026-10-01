@@ -1,0 +1,11 @@
+PS C:\Users\197107-6\Documents\ejemplo-copilot> python .\main.py 
+menu
+1. Calcular salario semanal
+2: Raíz cuadrada de (b-a**2)/c
+3. n factorial
+4. Salir
+Ingrese una opción: 2
+Ingrese el valor de a: 2
+Ingrese el valor de b: 20
+Ingrese el valor de c: 5
+La raíz cuadrada es: 3.2

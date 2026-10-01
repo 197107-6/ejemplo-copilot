@@ -1,0 +1,8 @@
+menu
+1. Calcular salario semanal
+2: Raíz cuadrada de (b-a**2)/c
+3. n factorial
+4. Salir
+Ingrese una opción: 3
+Ingrese el valor de n: 5
+El factorial es: 120
